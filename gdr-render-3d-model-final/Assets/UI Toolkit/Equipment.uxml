@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/GDR/UserInterface/Equipment.uss?fileID=7433441132597879392&amp;guid=881c9d61efe98c44488dd6b392b8a0d1&amp;type=3#Equipment" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: row;">
+        <ui:VisualElement name="Middle" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.67); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 1px; flex-direction: row; justify-content: space-between;">
+            <ui:VisualElement name="Equipment">
+                <ui:VisualElement name="Slot" />
+                <ui:VisualElement name="Slot" />
+                <ui:VisualElement name="Slot" />
+                <ui:VisualElement name="Slot" />
+                <ui:VisualElement name="Slot" />
+                <ui:VisualElement name="Slot" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Equipment">
+                <ui:VisualElement name="Slot" />
+                <ui:VisualElement name="Slot" />
+                <ui:VisualElement name="Slot" />
+                <ui:VisualElement name="Slot" />
+                <ui:VisualElement name="Slot" />
+                <ui:VisualElement name="Slot" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
