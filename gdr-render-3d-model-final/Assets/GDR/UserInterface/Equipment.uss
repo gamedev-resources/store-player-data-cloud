@@ -2,7 +2,6 @@
     flex-grow: 1;
     background-color: rgba(0, 0, 0, 0.48);
     min-width: auto;
-    max-height: 200px;
     border-left-color: rgb(103, 103, 103);
     border-right-color: rgb(103, 103, 103);
     border-top-color: rgb(103, 103, 103);
@@ -15,10 +14,10 @@
     border-bottom-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-    width: 200px;
-    height: 100px;
     margin-top: 25px;
     margin-bottom: 25px;
+    width: 200px;
+    max-height: 100px;
 }
 
 #Equipment {
@@ -43,4 +42,63 @@
     border-right-width: 1px;
     border-top-width: 1px;
     border-bottom-width: 1px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+#Description {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.48);
+    min-width: auto;
+    border-left-color: rgb(103, 103, 103);
+    border-right-color: rgb(103, 103, 103);
+    border-top-color: rgb(103, 103, 103);
+    border-bottom-color: rgb(103, 103, 103);
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 85%;
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#Main {
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+}
+
+.rotate {
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.48);
+    min-width: auto;
+    max-height: 100px;
+    border-left-color: rgb(103, 103, 103);
+    border-right-color: rgb(103, 103, 103);
+    border-top-color: rgb(103, 103, 103);
+    border-bottom-color: rgb(103, 103, 103);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 100px;
+    height: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    max-width: 75px;
 }
