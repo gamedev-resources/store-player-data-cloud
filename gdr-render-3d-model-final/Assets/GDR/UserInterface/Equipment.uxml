@@ -3,7 +3,7 @@
     <Style src="project://database/Assets/GDR/UserInterface/Equipment.uss?fileID=7433441132597879392&amp;guid=881c9d61efe98c44488dd6b392b8a0d1&amp;type=3#Equipment" />
     <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); flex-direction: column;">
         <ui:VisualElement name="Main" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
-            <ui:VisualElement name="Character_Area" style="flex-grow: 1; justify-content: space-around; align-items: flex-end; flex-direction: row;">
+            <ui:VisualElement name="Character_Area" style="flex-grow: 1; justify-content: space-around; align-items: flex-end; flex-direction: row; background-image: url(&apos;project://database/Assets/GDR/Materials/Charcater.renderTexture?fileID=8400000&amp;guid=7ea017a054a89894284658a51367d42f&amp;type=2#Charcater&apos;); -unity-background-scale-mode: scale-and-crop;">
                 <ui:VisualElement name="Rotate_Left" class="rotate" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/GDR/Sprites/Rotate_Left.png?fileID=2800000&amp;guid=5c4f834d16cdcef4b8170ce660b0ba54&amp;type=3#Rotate_Left&apos;); -unity-background-scale-mode: scale-and-crop; -unity-background-image-tint-color: rgb(0, 0, 0);" />
                 <ui:VisualElement name="Rotate_Right" class="rotate" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/GDR/Sprites/Rotate_Right.png?fileID=2800000&amp;guid=9a5eeac00671dbc40a73aa2505e56ded&amp;type=3#Rotate_Right&apos;); -unity-background-scale-mode: scale-and-crop; -unity-background-image-tint-color: rgb(0, 0, 0);" />
             </ui:VisualElement>
