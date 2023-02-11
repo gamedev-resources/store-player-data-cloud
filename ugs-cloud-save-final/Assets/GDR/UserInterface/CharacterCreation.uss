@@ -78,3 +78,14 @@
     padding-top: 0;
     padding-bottom: 0;
 }
+
+#PlayerName {
+    width: 30%;
+    -unity-font-definition: url('project://database/Assets/GDR/Fonts/OpenSans-VariableFont_wdth,wght%20SDF.asset?fileID=11400000&guid=67c8352771d5b7947a3553d826f10b75&type=2#OpenSans-VariableFont_wdth,wght SDF');
+    -unity-font-style: bold;
+}
+
+#unity-text-input
+{
+    background-color: rgba(0, 0, 0, 0.48);
+}
