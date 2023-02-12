@@ -10,7 +10,10 @@ public class CharacterCreationScreen : MonoBehaviour
 {
     [SerializeField]
     private UIDocument _uiDocument;
+    public List<Ability> Abilities = new List<Ability>();
     
+    
+    public bool CanSelectAbility = true;
 
     // Start is called before the first frame update
     void Start()
@@ -18,8 +21,10 @@ public class CharacterCreationScreen : MonoBehaviour
         _uiDocument.rootVisualElement.Q<Label>("Next").RegisterCallback<MouseDownEvent>(NextButton_Clicked);
         var abilityContainer = _uiDocument.rootVisualElement.Q<VisualElement>("Abilities");
 
-        abilityContainer.Add(new AbilityRow());
-        
+        foreach (var a in Abilities)
+        {
+            abilityContainer.Add(new AbilityRow(a));
+        }
     }
 
     private void NextButton_Clicked(MouseDownEvent e)

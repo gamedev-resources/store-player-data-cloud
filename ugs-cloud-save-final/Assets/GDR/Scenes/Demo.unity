@@ -1765,7 +1765,7 @@ GameObject:
   - component: {fileID: 1021497209}
   - component: {fileID: 1021497211}
   m_Layer: 5
-  m_Name: UIDocument
+  m_Name: CreationWindow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1815,6 +1815,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _uiDocument: {fileID: 1021497209}
+  Abilities:
+  - {fileID: 11400000, guid: 836c328d79fd8ad4b8e62122b1e649a0, type: 2}
+  - {fileID: 11400000, guid: 6098f11a3d9c8164eb3cf0ad80db64f7, type: 2}
+  - {fileID: 11400000, guid: fa302ebeec54875448dfabcb619caa41, type: 2}
+  - {fileID: 11400000, guid: 22dbc25e40c0ab745a608cb90420d77d, type: 2}
 --- !u!4 &1162650680 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 695705569671cc347b4610c500eddcf8, type: 3}
