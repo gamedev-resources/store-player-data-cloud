@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="Row" class="Row">
+        <ui:VisualElement name="Icon" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); background-image: url(&apos;project://database/Assets/GDR/Sprites/Abilities/Archer_Ability3.png?fileID=2800000&amp;guid=8ba526c0079d9de45b0a2fe136126d69&amp;type=3#Archer_Ability3&apos;); width: 50px; height: 50px; max-width: 50px; max-height: 50px; flex-shrink: 0;" />
+        <ui:VisualElement name="Details" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+            <ui:Label tabindex="-1" text="Ability" display-tooltip-when-elided="true" name="Title" style="-unity-text-align: upper-left; -unity-font-style: bold; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+            <ui:Label tabindex="-1" text="Suspendisse dui nisl, consectetur sit amet enim posuere, iaculis tincidunt." display-tooltip-when-elided="true" name="Ability_Description" style="white-space: normal; -unity-text-align: upper-left; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; max-width: 100%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
