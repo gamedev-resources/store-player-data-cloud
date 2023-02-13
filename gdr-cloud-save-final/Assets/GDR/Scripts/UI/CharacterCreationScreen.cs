@@ -1,4 +1,6 @@
 using System.Collections.Generic;
+using System.Linq;
+
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -40,8 +42,18 @@ public class CharacterCreationScreen : MonoBehaviour
         }
     }
 
-    private void ConfirmButton_Clicked(MouseDownEvent e)
+private void ConfirmButton_Clicked(MouseDownEvent e)
+{
+    var playerDetails = new Player()
     {
-        Debug.Log($"Player Name: {_playerName.text}. {_selectedAbilities.Count} abilities selected.");
-    }
+        Name = _playerName.text,
+        Class = "Archer",
+        Abilities = _selectedAbilities.Select(x => x.Name).ToArray(),
+        Experience = 1
+    };
+
+    CloudController.SavePlayerData(playerDetails);
+
+    Debug.Log("Confirm clicked");
+}
 }
