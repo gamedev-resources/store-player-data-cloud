@@ -51,6 +51,12 @@ public class CloudController : MonoBehaviour
 
         Dictionary<string, string> data = await CloudSaveService.Instance.Data.LoadAsync(keys);
 
+        //Noting came back - This is probably the first character
+        if (data.Count == 0)
+        {
+            return;
+        }
+
         if (!int.TryParse(data[CloudSaveKeys.Experience.ToString()], out int experience))
         {
             //Put error handling logic here as the value can't be parsed
@@ -67,7 +73,6 @@ public class CloudController : MonoBehaviour
 
     public static async void SavePlayerData(Player player)
     {
-
         var data = new Dictionary<string, object>();
         var abilities = JsonConvert.SerializeObject(player.Abilities);
 
@@ -77,7 +82,6 @@ public class CloudController : MonoBehaviour
 
         var response = await CloudCodeService.Instance.CallEndpointAsync<bool>("CreateNewPlayer", data);
 
-        Debug.Log($"{response}");
-
+        Debug.Log($"Cloud code completed. Successful: {response}");
     }
 }

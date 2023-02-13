@@ -42,18 +42,16 @@ public class CharacterCreationScreen : MonoBehaviour
         }
     }
 
-private void ConfirmButton_Clicked(MouseDownEvent e)
-{
-    var playerDetails = new Player()
+    private void ConfirmButton_Clicked(MouseDownEvent e)
     {
-        Name = _playerName.text,
-        Class = "Archer",
-        Abilities = _selectedAbilities.Select(x => x.Name).ToArray(),
-        Experience = 1
-    };
+        var playerDetails = new Player()
+        {
+            Name = _playerName.text,
+            Class = "Archer",
+            Abilities = _selectedAbilities.Select(x => x.Name).ToArray(),
+            Experience = 1
+        };
 
-    CloudController.SavePlayerData(playerDetails);
-
-    Debug.Log("Confirm clicked");
-}
+        CloudController.SavePlayerData(playerDetails);
+    }
 }

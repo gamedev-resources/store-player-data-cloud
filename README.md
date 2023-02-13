@@ -5,11 +5,15 @@ Storing player and save data in a cloud service is a simple and effective way to
 
 In this tutorial you will learn how to read, write, and validate player data using the free tier of Unity Gaming Service's Cloud Code and Cloud Save products.
 
+![](./final.png)
+
 # Learning Outcomes
 * Create a new cloud project with Unity Gaming Services
-* Read and write data using Cloud Save
-* Read, write and validate player data stored in Cloud Save with Cloud Code
+* Use UGS antonymous authentication
+* Read and write data directly to Cloud Save
+* Setup a Cloud Code script with custom parameters
+* Use Cloud Code to store player data in Cloud Save
 
 # Prerequisites
-* You will need Unity 2022.2 or later to follow along. (This tutorial may work with older versions, but is not gauranteed.) 
+* You will need Unity 2022.2 or later to follow along. (This tutorial may work with older versions, but is not gauranteed.) 
 * This tutorial assumes you already have intermediate knowledge of Unity, C# and JavaScript.
