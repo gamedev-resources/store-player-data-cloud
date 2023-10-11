@@ -1,4 +1,4 @@
-> View the entire tutorial on [GameDev Resources](https://www.gamedev-resources.com).
+> View the entire tutorial on [What Up Games](https://www.whatupgames.com).
 
 # Improve retention and prevent cheating by storing player data in the cloud
 Storing player and save data in a cloud service is a simple and effective way to enhance player retention in your game. By allowing players to access their progress from any device and protecting their data from loss in the event of an uninstall or device reset, you can provide a seamless and uninterrupted gaming experience, ultimately keeping players engaged and coming back for more. Having access to the data also lets you test updates and patches on real world data - reducing the likelihood of introducing breaking changes.
